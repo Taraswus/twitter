@@ -18,7 +18,7 @@
                         <a class="nav-link" href="${pageContext.request.contextPath}/logout">Log out</a>
                     </c:otherwise>
                 </c:choose>
-            </li>
+                            </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -26,3 +26,4 @@
         </form>
     </div>
 </nav>
+<jsp:include page="messages.jsp"/>
