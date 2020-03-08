@@ -7,9 +7,9 @@ import org.hibernate.cfg.Configuration;
 public class HibernateUtil {
 
     @Getter
-    private static final SessionFactory SESSION_FACTORY = buildSessiomFactory();
+    private static final SessionFactory SESSION_FACTORY = buildSessionFactory();
 
-    private static SessionFactory buildSessiomFactory() {
+    private static SessionFactory buildSessionFactory() {
         try {
             return new Configuration()
                     .configure()
